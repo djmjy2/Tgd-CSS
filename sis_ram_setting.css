@@ -1,18 +1,27 @@
 :root {
-  --color-0: #ffffff; /*  */
+    --color-0: transparent;
+    /* transparent */
 
-  --color-1: #cceecc; /* */
-  --color-2: #e3f1af; /* */
-  --color-3: #4bc84b; /*  */
-  --color-4: #71da35; /* */
-  --color-5: #cff1af; /* */
+    --color-1: #ffffff;
+    /* Gradient_top */
+    
+    --color-2: #ffffff;
+    /* Gradient_middle */
+    
+    --color-3: #ffffff;
+    /* Gradient_bottom */
+    
+    --color-4: #f6f0ff;
+    /* sub color */
+    
+    --color-5: #818dff;
+    /* main color */
 
-  --logo-URL: url("");
-  --logo-Width: 158px;
-  --logo-Height: 50px;
-  --logo-size-mobile: 90px 32px;
+    --logo-URL: url("https://upload.tgd.kr/20190328/c422cfe9ba602ca8364d42765066ef4a.png");
+    --logo-Width: 158px;
+    --logo-Height: 50px;
+    --logo-size-mobile: 90px 32px;
 
-  --icon-URL: url("");
-  --pre-comment: " ";
-  --sub-comment: " ";
+    --pre-comment: " ";
+    --sub-comment: " ";
 }
