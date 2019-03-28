@@ -1,0 +1,198 @@
+/* main body */
+#main-content, body, footer {
+  background: var(--color-4) !important;
+}
+
+/* 고정 포스트 로고 색 */
+span.a-badge i.fa.fa-info-circle {
+    color: red !important; 
+}
+
+header {
+    border-bottom-color: var(--color-5) !important;
+    background: var(--color-1) !important;
+}
+
+/* 상단 로고 */
+header > #header-area > a > h1 {
+    background: var(--logo-URL) no-repeat;
+    background-size: var(--logo-size-mobile);
+}
+header > #header-area > #header-bar-link {
+    color: var(--color-5);
+}
+
+#header-top-notice a {
+    font-weight: bold; color: var(--color-5) !important; 
+}
+
+#header-top-notice strong.notice-badge {
+    background: var(--color-4) !important; 
+}
+
+#header-top-notice strong.notice-badge {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: -2em;
+    opacity: 0; 
+}
+
+#article-content-wrapper > .header {
+    background: var(--color-4) !important; 
+    border-top: 2px solid var(--color-4);
+}
+
+/* posts list customed layout */
+#article-list > .article-list-row has-category notice > .item > .list-header > strong {
+    
+    width: 0px; 
+}
+
+#article-list > .article-list-row.notice {
+    background: var(--color-2) !important; 
+}
+
+#article-list > .article-list-row.notice > .item > a.list-title {
+    
+    vertical-align: middle; 
+}
+
+#article-list > .article-list-row.notice > .item > a.list-title > .title-value {
+    padding-left: 6px;
+}
+
+#article-list > .article-list-row.notice > .item > a.list-title > .list-writer {
+    height: 0px !important;
+    opacity: 0;
+    padding: 0px; 
+}
+
+#article-list > .article-list-row.notice > .item > .list-header {
+    width:12px;
+}
+
+#article-list > .article-list-row > .item > span.a-badge {
+    width: 40px; 
+}
+
+#article-list > .article-list-row > .item > a.list-title > .title-value { 
+    max-width: 240px; 
+}
+
+#article-list > .article-list-row > .item > a.list-title > .list-writer.logged > span {
+    color: var(--color-4);
+}
+
+#article-list > .article-list-row > .item > .list-header > span {
+    background-color: var(--color-4) !important; 
+}
+
+#article-list > .article-list-row > .item > .list-header > strong {
+    font-size: 0px; padding: 0px; 
+}
+
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+    font-size: 12px;
+    padding-left: 2px;
+    font-weight: bold;
+    color: var(--color-5);
+    word-break: break-word;
+    line-height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+/* normal posts */
+#article-list #article-list-category { 
+    background: var(--color-2); 
+}
+
+#article-list #article-list-category > a {
+    display: inline-block;
+    padding: 11px 16px;
+    background: var(--color-1);
+    text-decoration: none; font-size: 12px;
+    font-weight: bold; 
+}
+
+#article-list #article-list-category > a:focus { 
+    background: var(--color-3);
+}
+
+#board-info {
+    border-top: 4px solid var(--color-4);
+    background: var(--color-3);
+    max-height: 46px; max-block-size: 46px;
+}
+
+#board-info > a.board-right-menu {
+    max-height: 40px;
+    border: 0px;
+    vertical-align: middle; 
+    color: var(--color-3);
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    color: var(--color-5);
+    background: none;
+    border: 1px solid var(--color-5);
+    border-radius: 25px;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    color: var(--color-5);
+}
+.pagination > li > a:hover {
+    color: var(--color-5);
+    background: var(--color-3);
+    border: 1px solid var(--color-5);
+    border-radius: 25px;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    color: var(--color-5);
+    border: none;
+}
+
+/* 댓글 */
+#article-reply-area > .header h5 {
+    color: var(--color-2); 
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header { 
+    background: var(--color-5) !important;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged {
+    color: var(--color-4) !important; 
+}
+
+
+/* 상단 검색바 */
+header > #header-search-bar #header-search-input { 
+    border: 2px solid var(--color-5);
+}
+
+header > #header-search-bar #header-search-btn {
+    color: var(--color-4); 
+}
+
+
+/* nav box (왼쪽) */
+nav#nav > .nav-header {
+    background: var(--color-4); 
+}
+
+header > #header-area > #header-search-link {
+    color: var(--color-4); 
+}
