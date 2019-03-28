@@ -24,7 +24,7 @@
 
   background: white;
 
-  border: solid var(--color-3) 1px;
+  border: solid var(--color-5) 1px;
 
   float: left;
 
@@ -60,7 +60,7 @@
 
 .vote-btn[data-type="up"]:hover::before {
 
-  background: var(--color-3);
+  background: var(--color-5);
 
   color: white;
 
@@ -78,6 +78,6 @@
 
   font-size: 22px;
 
-  color: var(--color-3);
+  color: var(--color-5);
 
 }
