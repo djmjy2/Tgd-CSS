@@ -1,6 +1,6 @@
 /* main body */
 #main-content, body, footer {
-  background: var(--color-4) !important;
+  background: var(--color-5) !important;
 }
 
 /* 고정 포스트 로고 색 */
@@ -27,7 +27,7 @@ header > #header-area > #header-bar-link {
 }
 
 #header-top-notice strong.notice-badge {
-    background: var(--color-4) !important; 
+    background: var(--color-5) !important; 
 }
 
 #header-top-notice strong.notice-badge {
@@ -38,7 +38,7 @@ header > #header-area > #header-bar-link {
 }
 
 #article-content-wrapper > .header {
-    background: var(--color-4) !important; 
+    background: var(--color-5) !important; 
     border-top: 2px solid var(--color-4);
 }
 
@@ -80,7 +80,7 @@ header > #header-area > #header-bar-link {
 }
 
 #article-list > .article-list-row > .item > a.list-title > .list-writer.logged > span {
-    color: var(--color-4);
+    color: var(--color-5);
 }
 
 #article-list > .article-list-row > .item > .list-header > span {
@@ -184,15 +184,15 @@ header > #header-search-bar #header-search-input {
 }
 
 header > #header-search-bar #header-search-btn {
-    color: var(--color-4); 
+    color: var(--color-5); 
 }
 
 
 /* nav box (왼쪽) */
 nav#nav > .nav-header {
-    background: var(--color-4); 
+    background: var(--color-5); 
 }
 
 header > #header-area > #header-search-link {
-    color: var(--color-4); 
+    color: var(--color-5); 
 }
