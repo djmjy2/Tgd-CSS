@@ -26,6 +26,8 @@
 
   border: solid var(--color-5) 1px;
 
+ color: var(--color-5);
+
   float: left;
 
   width: 60px;
