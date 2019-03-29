@@ -170,11 +170,11 @@ header > #header-area > #header-bar-link {
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header { 
-    background: var(--color-5) !important;
+    background: var(--color-4) !important;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged {
-    color: var(--color-1) !important; 
+    color: var(--color-5) !important; 
 }
 
 
