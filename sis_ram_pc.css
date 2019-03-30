@@ -131,6 +131,16 @@ header #header-bar .fa {
     color: var(--color-5);
 }
 
+/* ½ÃÃ»ÀÚ ÄÚ¸àÆ® */
+#board-info #viewers-area #viewers:before {
+	 content: var(--pre-comment);
+	 cursor: text;
+ }
+#board-info #viewers-area #viewers:after {
+	 content: var(--sub-comment);
+	 cursor : text;
+ }
+
 /* ÁÂÃø¸Þ´º ¼ôÄÆ¸µÅ© ±Û¾¾ »ö»ó */
 
 #main .menu-wrapper>a>em {
